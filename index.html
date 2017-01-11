@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="js/scripts.js"></script>
+    <title></title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Survey</h1>
+
+      <div>
+
+      <form id="iceCream">
+        <div class="">
+          <label for="">Enter your name</label>
+            <input type="text" name="name" id="userName">
+        </div>
+
+        <div class="">
+          <h3>Pick an Icecream Flavor</h3>
+          <div class="radio">
+            <label>
+              <input type="radio" name="flavor" value="Chocolate">
+              Chocolate
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="flavor" value="Vanilla">
+              Vanilla
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="flavor" value="Cookies & Cream">
+              Cookies & Cream
+            </label>
+          </div>
+        </div>
+
+        <div class="">
+          <h3>What is your favorite sport?</h3>
+          <select id="sports" name="">
+            <option>Baseball</option>
+            <option>Football</option>
+            <option>Soccer</option>
+          </select>
+        </div>
+
+        <button id="submitButton" type="submit" name="button">Submit</button>
+      </form>
+
+
+    </div>
+
+      <div id="output">
+        <h2>Answers</h2>
+        <ul>
+          <li id="nameOutput"></li>
+          <li id="icecreamOutput"></li>
+          <li id="sportOutput"></li>
+        </ul>
+      </div>
+
+    </div>
+
+  </body>
+</html>

@@ -1,0 +1,5 @@
+#output {
+  display: none;
+  border: 3px black double;
+  width: 50%;
+}
